@@ -3,7 +3,7 @@ import { ADD_BOOKS, DELETE_BOOK, DELETE_ALL_BOOKS } from "../reducers/constant";
 export const addBook = data => {
     return {
     type: ADD_BOOKS,
-    payload: data /*Object */
+    payload: data
 }
 }
 export const deleteBook = id => {
